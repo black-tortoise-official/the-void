@@ -32,7 +32,7 @@
 
 			</Description>
 			<IsPirate>true</IsPirate> <!--Do not edit-->
-			<Frequency>5000.0</Frequency>
+			<Frequency>5.0</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="Void-Explorer">
           <BeaconText>[The Void] Explorer</BeaconText>
