@@ -4,7 +4,7 @@
     <SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
-				<SubtypeId>Void-Explorer-SPAWNTEST</SubtypeId>
+				<SubtypeId>Void-Explorer-SG</SubtypeId>
 			</Id>
 			<Description>
 
@@ -21,11 +21,11 @@
 			[ReplenishSystems:true]
 
 			[UseBlockReplacerProfile:true]
-        	[IgnoreGlobalBlockReplacer:true]
+      [IgnoreGlobalBlockReplacer:true]
 			[BlockReplacerProfileNames:MES-DisposableNpcBeacons]
 			[BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
 			[BlockReplacerProfileNames:MES-NpcThrusters-Hydro]
-        	[BlockReplacerProfileNames:MES-NpcThrusters-Ion]
+      [BlockReplacerProfileNames:MES-NpcThrusters-Ion]
 				
 			[UseRivalAi:false]
 			[RivalAiReplaceRemoteControl:false]
@@ -34,7 +34,7 @@
 			<IsPirate>true</IsPirate> <!--Do not edit-->
 			<Frequency>5000.0</Frequency>
 			<Prefabs>
-				<Prefab SubtypeId="Void-Explorer-TEST-II">
+				<Prefab SubtypeId="Void-Explorer">
           <BeaconText>[The Void] Explorer</BeaconText>
           <Behaviour></Behaviour>
 					<Position>
