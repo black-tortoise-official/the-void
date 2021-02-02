@@ -38,7 +38,7 @@
       <Frequency>5.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="Void-Explorer">
-          <BeaconText>[The Void] Explorer</BeaconText>
+          <BeaconText>Explorer</BeaconText>
           <Behaviour></Behaviour>
           <Position>
             <X>0.0</X>
@@ -86,7 +86,7 @@
       <Frequency>3.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="Void-Charger">
-          <BeaconText>[The Void] Charger</BeaconText>
+          <BeaconText>Charger</BeaconText>
           <Behaviour></Behaviour>
           <Position>
             <X>0.0</X>
@@ -135,7 +135,7 @@
       <Prefabs>
 
         <Prefab SubtypeId="Void-Charger">
-          <BeaconText>[The Void] Charger Squad Leader</BeaconText>
+          <BeaconText>Charger Squad Leader</BeaconText>
           <Behaviour></Behaviour>
           <Position>
             <X>200.0</X>
@@ -146,7 +146,7 @@
         </Prefab>
 
         <Prefab SubtypeId="Void-Explorer">
-          <BeaconText>[The Void] Explorer</BeaconText>
+          <BeaconText>Explorer</BeaconText>
           <Behaviour></Behaviour>
           <Position>
             <X>0.0</X>
@@ -157,7 +157,7 @@
         </Prefab>
 
         <Prefab SubtypeId="Void-Charger">
-          <BeaconText>[The Void] Charger</BeaconText>
+          <BeaconText>Charger</BeaconText>
           <Behaviour></Behaviour>
           <Position>
             <X>-200.0</X>
@@ -206,7 +206,7 @@
       <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="Abysmal-Inquisitor">
-          <BeaconText>[The Void] An Abysmal Inquisitor</BeaconText>
+          <BeaconText>An Abysmal Inquisitor</BeaconText>
           <Behaviour></Behaviour>
           <Position>
             <X>0.0</X>
