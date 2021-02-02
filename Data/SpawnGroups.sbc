@@ -2,164 +2,212 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SpawnGroups>
 
-		<!-- Single Void Explorer -->
+    <!-- Single Void Explorer -->
     <SpawnGroup>
-			<Id>
-				<TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
-				<SubtypeId>Void-Explorer-SG</SubtypeId>
-			</Id>
-			<Description>
-			[Modular Encounters SpawnGroup]
-				
-			[SpaceCargoShip:true]
-			[LunarCargoShip:true]
-			[SpaceRandomEncounter:false]
-			[AtmosphericCargoShip:false]
-			[PlanetaryInstallation:false]
-			[RivalAiSpawn:false]
-			
-			[FactionOwner:VOID]
-			[ReplenishSystems:true]
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+        <SubtypeId>Void-Explorer-SG</SubtypeId>
+      </Id>
+      <Description>
+      [Modular Encounters SpawnGroup]
+        
+      [SpaceCargoShip:true]
+      [LunarCargoShip:true]
+      [SpaceRandomEncounter:false]
+      [AtmosphericCargoShip:false]
+      [PlanetaryInstallation:false]
+      [RivalAiSpawn:false]
+      
+      [FactionOwner:VOID]
+      [ReplenishSystems:true]
 
-			[UseBlockReplacerProfile:true]
+      [UseBlockReplacerProfile:true]
       [IgnoreGlobalBlockReplacer:true]
-			[BlockReplacerProfileNames:MES-DisposableNpcBeacons]
-			[BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
-			[BlockReplacerProfileNames:MES-NpcThrusters-Hydro]
+      [BlockReplacerProfileNames:MES-DisposableNpcBeacons]
+      [BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
+      [BlockReplacerProfileNames:MES-NpcThrusters-Hydro]
       [BlockReplacerProfileNames:MES-NpcThrusters-Ion]
-				
-			[UseRivalAi:false]
-			[RivalAiReplaceRemoteControl:false]
-			</Description>
-			<IsPirate>true</IsPirate> <!--Do not edit-->
-			<Frequency>5.0</Frequency>
-			<Prefabs>
-				<Prefab SubtypeId="Void-Explorer">
+        
+      [UseRivalAi:false]
+      [RivalAiReplaceRemoteControl:false]
+      </Description>
+      <IsPirate>true</IsPirate> <!--Do not edit-->
+      <Frequency>5.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Void-Explorer">
           <BeaconText>[The Void] Explorer</BeaconText>
           <Behaviour></Behaviour>
-					<Position>
-						<X>0.0</X>
-						<Y>0.0</Y>
-						<Z>0.0</Z>
-					</Position>
-					<Speed>35</Speed>					
-				</Prefab>
-			</Prefabs>
-		</SpawnGroup>
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>35</Speed>					
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
 
-		<!-- Single Void Charger -->
-		<SpawnGroup>
-			<Id>
-				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>Void-Charger-SG</SubtypeId>
-			</Id>
-			<Description>
-			[Modular Encounters SpawnGroup]
-				
-			[SpaceCargoShip:true]
-			[LunarCargoShip:true]
-			[SpaceRandomEncounter:false]
-			[AtmosphericCargoShip:false]
-			[PlanetaryInstallation:false]
-			[RivalAiSpawn:false]
-			
-			[FactionOwner:VOID]
-			[ReplenishSystems:true]
+    <!-- Single Void Charger -->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Void-Charger-SG</SubtypeId>
+      </Id>
+      <Description>
+      [Modular Encounters SpawnGroup]
+        
+      [SpaceCargoShip:true]
+      [LunarCargoShip:true]
+      [SpaceRandomEncounter:false]
+      [AtmosphericCargoShip:false]
+      [PlanetaryInstallation:false]
+      [RivalAiSpawn:false]
+      
+      [FactionOwner:VOID]
+      [ReplenishSystems:true]
 
-			[UseBlockReplacerProfile:true]
+      [UseBlockReplacerProfile:true]
       [IgnoreGlobalBlockReplacer:true]
-			[BlockReplacerProfileNames:MES-DisposableNpcBeacons]
-			[BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
-			[BlockReplacerProfileNames:MES-NpcThrusters-Hydro]
+      [BlockReplacerProfileNames:MES-DisposableNpcBeacons]
+      [BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
+      [BlockReplacerProfileNames:MES-NpcThrusters-Hydro]
       [BlockReplacerProfileNames:MES-NpcThrusters-Ion]
-				
-			[UseRivalAi:false]
-			[RivalAiReplaceRemoteControl:false]
-			</Description>
-			<IsPirate>true</IsPirate>
-			<Frequency>3.0</Frequency>
-			<Prefabs>
-				<Prefab SubtypeId="Void-Charger">
+        
+      [UseRivalAi:false]
+      [RivalAiReplaceRemoteControl:false]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>3.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Void-Charger">
           <BeaconText>[The Void] Charger</BeaconText>
           <Behaviour></Behaviour>
-					<Position>
-						<X>0.0</X>
-						<Y>0.0</Y>
-						<Z>0.0</Z>
-					</Position>
-					<Speed>45</Speed>					
-				</Prefab>
-			</Prefabs>
-		</SpawnGroup>
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>45</Speed>					
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
 
-		<!-- Group of Chargers and Explorer -->
-		<SpawnGroup>
-			<Id>
-				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>Void-Recon-Expedition-Alpha-SG</SubtypeId>
-			</Id>
-			<Description>
-			[Modular Encounters SpawnGroup]
-				
-			[SpaceCargoShip:true]
-			[LunarCargoShip:true]
-			[SpaceRandomEncounter:false]
-			[AtmosphericCargoShip:false]
-			[PlanetaryInstallation:false]
-			[RivalAiSpawn:false]
-			
-			[FactionOwner:VOID]
-			[ReplenishSystems:true]
+    <!-- Group of Chargers and Explorer -->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Void-Recon-Expedition-Alpha-SG</SubtypeId>
+      </Id>
+      <Description>
+      [Modular Encounters SpawnGroup]
+        
+      [SpaceCargoShip:true]
+      [LunarCargoShip:true]
+      [SpaceRandomEncounter:false]
+      [AtmosphericCargoShip:false]
+      [PlanetaryInstallation:false]
+      [RivalAiSpawn:false]
+      
+      [FactionOwner:VOID]
+      [ReplenishSystems:true]
 
-			[UseBlockReplacerProfile:true]
+      [UseBlockReplacerProfile:true]
       [IgnoreGlobalBlockReplacer:true]
-			[BlockReplacerProfileNames:MES-DisposableNpcBeacons]
-			[BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
-			[BlockReplacerProfileNames:MES-NpcThrusters-Hydro]
+      [BlockReplacerProfileNames:MES-DisposableNpcBeacons]
+      [BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
+      [BlockReplacerProfileNames:MES-NpcThrusters-Hydro]
       [BlockReplacerProfileNames:MES-NpcThrusters-Ion]
-				
-			[UseRivalAi:false]
-			[RivalAiReplaceRemoteControl:false]
-			</Description>
-			<IsPirate>true</IsPirate>
-			<Frequency>2.0</Frequency>
-			<Prefabs>
+        
+      [UseRivalAi:false]
+      [RivalAiReplaceRemoteControl:false]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>2.0</Frequency>
+      <Prefabs>
 
-				<Prefab SubtypeId="Void-Charger">
+        <Prefab SubtypeId="Void-Charger">
           <BeaconText>[The Void] Charger Squad Leader</BeaconText>
           <Behaviour></Behaviour>
-					<Position>
-						<X>200.0</X>
-						<Y>0.0</Y>
-						<Z>0.0</Z>
-					</Position>
-					<Speed>25</Speed>					
-				</Prefab>
+          <Position>
+            <X>200.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>					
+        </Prefab>
 
-				<Prefab SubtypeId="Void-Explorer">
+        <Prefab SubtypeId="Void-Explorer">
           <BeaconText>[The Void] Explorer</BeaconText>
           <Behaviour></Behaviour>
-					<Position>
-						<X>0.0</X>
-						<Y>0.0</Y>
-						<Z>0.0</Z>
-					</Position>
-					<Speed>25</Speed>					
-				</Prefab>
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>					
+        </Prefab>
 
-				<Prefab SubtypeId="Void-Charger">
+        <Prefab SubtypeId="Void-Charger">
           <BeaconText>[The Void] Charger</BeaconText>
           <Behaviour></Behaviour>
-					<Position>
-						<X>-200.0</X>
-						<Y>0.0</Y>
-						<Z>0.0</Z>
-					</Position>
-					<Speed>25</Speed>					
-				</Prefab>
+          <Position>
+            <X>-200.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>					
+        </Prefab>
 
-			</Prefabs>
-		</SpawnGroup>
+      </Prefabs>
+    </SpawnGroup>
+
+    <!-- Single Abysmal Inquisitor -->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+        <SubtypeId>Abysmal-Inquisitor-SG</SubtypeId>
+      </Id>
+      <Description>
+      [Modular Encounters SpawnGroup]
+        
+      [SpaceCargoShip:true]
+      [LunarCargoShip:false]
+      [SpaceRandomEncounter:false]
+      [AtmosphericCargoShip:false]
+      [PlanetaryInstallation:false]
+      [RivalAiSpawn:false]
+      
+      [UseBlockReplacerProfile:true]
+      [IgnoreGlobalBlockReplacer:true]
+      [ClearAuthorship:true]
+      [BlockReplacerProfileNames:MES-DisposableNpcBeacons]
+      [BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
+      [BlockReplacerProfileNames:MES-NpcThrusters-Hydro]
+      [BlockReplacerProfileNames:MES-NpcThrusters-Ion]
+      [BlockReplacerProfileNames:MES-ProprietaryCompRichBlocks]
+      [BlockReplacerProfileNames:MES-ProprietaryValuableBlocks]
+      [FactionOwner:VOID]
+      [ReplenishSystems:true]
+      [SpawnRandomCargo:true]
+        
+      [UseRivalAi:false]
+      [RivalAiReplaceRemoteControl:false]
+      </Description>
+      <IsPirate>true</IsPirate> <!--Do not edit-->
+      <Frequency>1.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Abysmal-Inquisitor">
+          <BeaconText>[The Void] An Abysmal Inquisitor</BeaconText>
+          <Behaviour></Behaviour>
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>					
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
 
   </SpawnGroups>
 </Definitions>
