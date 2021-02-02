@@ -27,6 +27,7 @@
       [BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
       [BlockReplacerProfileNames:MES-NpcThrusters-Hydro]
       [BlockReplacerProfileNames:MES-NpcThrusters-Ion]
+      [ClearAuthorship:true]
         
       [UseRivalAi:false]
       [RivalAiReplaceRemoteControl:false]
@@ -72,6 +73,7 @@
       [BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
       [BlockReplacerProfileNames:MES-NpcThrusters-Hydro]
       [BlockReplacerProfileNames:MES-NpcThrusters-Ion]
+      [ClearAuthorship:true]
         
       [UseRivalAi:false]
       [RivalAiReplaceRemoteControl:false]
@@ -117,6 +119,7 @@
       [BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
       [BlockReplacerProfileNames:MES-NpcThrusters-Hydro]
       [BlockReplacerProfileNames:MES-NpcThrusters-Ion]
+      [ClearAuthorship:true]
         
       [UseRivalAi:false]
       [RivalAiReplaceRemoteControl:false]
