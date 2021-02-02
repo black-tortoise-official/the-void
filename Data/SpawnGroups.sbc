@@ -27,6 +27,8 @@
       [BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
       [BlockReplacerProfileNames:MES-NpcThrusters-Hydro]
       [BlockReplacerProfileNames:MES-NpcThrusters-Ion]
+      [BlockReplacerProfileNames:MES-ProprietaryCompRichBlocks]
+      [BlockReplacerProfileNames:MES-ProprietaryValuableBlocks]
       [ClearAuthorship:true]
         
       [UseRivalAi:false]
@@ -73,6 +75,8 @@
       [BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
       [BlockReplacerProfileNames:MES-NpcThrusters-Hydro]
       [BlockReplacerProfileNames:MES-NpcThrusters-Ion]
+      [BlockReplacerProfileNames:MES-ProprietaryCompRichBlocks]
+      [BlockReplacerProfileNames:MES-ProprietaryValuableBlocks]
       [ClearAuthorship:true]
         
       [UseRivalAi:false]
@@ -119,6 +123,8 @@
       [BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
       [BlockReplacerProfileNames:MES-NpcThrusters-Hydro]
       [BlockReplacerProfileNames:MES-NpcThrusters-Ion]
+      [BlockReplacerProfileNames:MES-ProprietaryCompRichBlocks]
+      [BlockReplacerProfileNames:MES-ProprietaryValuableBlocks]
       [ClearAuthorship:true]
         
       [UseRivalAi:false]
