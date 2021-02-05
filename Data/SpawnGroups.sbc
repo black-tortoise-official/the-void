@@ -218,5 +218,56 @@
       </Prefabs>
     </SpawnGroup>
 
+    <!-- Single Void Charger as RAI Fighter -->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Void-Charger-RAI-SG</SubtypeId>
+      </Id>
+      <Description>
+      [Modular Encounters SpawnGroup]
+        
+      [SpaceCargoShip:true]
+      [LunarCargoShip:true]
+      [SpaceRandomEncounter:false]
+      [AtmosphericCargoShip:false]
+      [PlanetaryInstallation:false]
+      [RivalAiSpawn:true]
+      [RivalAiSpaceSpawn:true]
+      
+      [UseBlockReplacerProfile:true]
+      [IgnoreGlobalBlockReplacer:true]
+      [BlockReplacerProfileNames:MES-DisposableNpcBeacons]
+      [BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
+      [BlockReplacerProfileNames:MES-NpcThrusters-Hydro]
+      [BlockReplacerProfileNames:MES-NpcThrusters-Ion]
+      [BlockReplacerProfileNames:MES-ProprietaryCompRichBlocks]
+      [BlockReplacerProfileNames:MES-ProprietaryValuableBlocks]
+      [ClearAuthorship:true]
+      [FactionOwner:VOID]
+      [ReplenishSystems:true]
+      [ThreatScoreMinimum:50]
+      [ThreatScoreMaximum:500]
+      [UseThreatLevelCheck:true]
+        
+      [UseRivalAi:true]
+      [RivalAiReplaceRemoteControl:true]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>1.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Void-Charger">
+          <BeaconText>Charger</BeaconText>
+          <Behaviour>RAI-Behavior-TheVoid-Fighter</Behaviour>
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>45</Speed>					
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
   </SpawnGroups>
 </Definitions>
