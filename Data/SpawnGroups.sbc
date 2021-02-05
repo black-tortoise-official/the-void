@@ -246,12 +246,15 @@
       [ClearAuthorship:true]
       [FactionOwner:VOID]
       [ReplenishSystems:true]
+      [ThreatScoreMinimum:50]
+      [ThreatScoreMaximum:500]
+      [UseThreatLevelCheck:true]
         
       [UseRivalAi:true]
       [RivalAiReplaceRemoteControl:true]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>2.0</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="Void-Charger">
           <BeaconText>Charger</BeaconText>
