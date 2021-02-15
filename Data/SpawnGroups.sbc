@@ -30,6 +30,8 @@
       [BlockReplacerProfileNames:MES-ProprietaryCompRichBlocks]
       [BlockReplacerProfileNames:MES-ProprietaryValuableBlocks]
       [ClearAuthorship:true]
+      [ReplaceArmorBlocksWithModules:true]
+      [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
         
       [UseRivalAi:false]
       [RivalAiReplaceRemoteControl:false]
@@ -78,6 +80,8 @@
       [BlockReplacerProfileNames:MES-ProprietaryCompRichBlocks]
       [BlockReplacerProfileNames:MES-ProprietaryValuableBlocks]
       [ClearAuthorship:true]
+      [ReplaceArmorBlocksWithModules:true]
+      [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
         
       [UseRivalAi:false]
       [RivalAiReplaceRemoteControl:false]
@@ -126,6 +130,8 @@
       [BlockReplacerProfileNames:MES-ProprietaryCompRichBlocks]
       [BlockReplacerProfileNames:MES-ProprietaryValuableBlocks]
       [ClearAuthorship:true]
+      [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+      [ReplaceArmorBlocksWithModules:true]      
         
       [UseRivalAi:false]
       [RivalAiReplaceRemoteControl:false]
@@ -196,6 +202,8 @@
       [BlockReplacerProfileNames:MES-ProprietaryCompRichBlocks]
       [BlockReplacerProfileNames:MES-ProprietaryValuableBlocks]
       [FactionOwner:VOID]
+      [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+      [ReplaceArmorBlocksWithModules:true]
       [ReplenishSystems:true]
       [SpawnRandomCargo:true]
         
@@ -245,7 +253,9 @@
       [BlockReplacerProfileNames:MES-ProprietaryValuableBlocks]
       [ClearAuthorship:true]
       [FactionOwner:VOID]
+      [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
       [ReplenishSystems:true]
+      [ReplaceArmorBlocksWithModules:true]
       [ThreatScoreMinimum:50]
       [ThreatScoreMaximum:500]
       [UseThreatLevelCheck:true]
