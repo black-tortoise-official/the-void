@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SpawnGroups>
-
+    <!-- SMALL GRIDS -->
     <!-- Single Void Explorer -->
     <SpawnGroup>
       <Id>
@@ -16,13 +16,9 @@
       [SpaceRandomEncounter:false]
       [AtmosphericCargoShip:false]
       [PlanetaryInstallation:false]
-      [RivalAiSpawn:false]
-      
-      [FactionOwner:VOID]
-      [ReplenishSystems:true]
+      [RivalAiSpawn:true]
+      [RivalAiSpaceSpawn:true]
 
-      [UseBlockReplacerProfile:true]
-      [IgnoreGlobalBlockReplacer:true]
       [BlockReplacerProfileNames:MES-DisposableNpcBeacons]
       [BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
       [BlockReplacerProfileNames:MES-NpcThrusters-Hydro]
@@ -30,18 +26,24 @@
       [BlockReplacerProfileNames:MES-ProprietaryCompRichBlocks]
       [BlockReplacerProfileNames:MES-ProprietaryValuableBlocks]
       [ClearAuthorship:true]
+      [FactionOwner:VOID]
+      [IgnoreGlobalBlockReplacer:true]
       [ReplaceArmorBlocksWithModules:true]
+      [ReplenishSystems:true]
+      [RivalAiReplaceRemoteControl:true]
+      [ThreatScoreMinimum:25]
+      [ThreatScoreMaximum:250]
       [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
-        
-      [UseRivalAi:false]
-      [RivalAiReplaceRemoteControl:false]
+      [UseBlockReplacerProfile:true]
+      [UseRivalAi:true]
+      [UseThreatLevelCheck:true]
       </Description>
       <IsPirate>true</IsPirate> <!--Do not edit-->
-      <Frequency>5.0</Frequency>
+      <Frequency>2.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="Void-Explorer">
           <BeaconText>Explorer</BeaconText>
-          <Behaviour></Behaviour>
+          <Behaviour>RAI-Behavior-TheVoid-HorseFighter</Behaviour>
           <Position>
             <X>0.0</X>
             <Y>0.0</Y>
@@ -66,13 +68,9 @@
       [SpaceRandomEncounter:false]
       [AtmosphericCargoShip:false]
       [PlanetaryInstallation:false]
-      [RivalAiSpawn:false]
+      [RivalAiSpawn:true] 
+      [RivalAiSpaceSpawn:true]
       
-      [FactionOwner:VOID]
-      [ReplenishSystems:true]
-
-      [UseBlockReplacerProfile:true]
-      [IgnoreGlobalBlockReplacer:true]
       [BlockReplacerProfileNames:MES-DisposableNpcBeacons]
       [BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
       [BlockReplacerProfileNames:MES-NpcThrusters-Hydro]
@@ -80,18 +78,24 @@
       [BlockReplacerProfileNames:MES-ProprietaryCompRichBlocks]
       [BlockReplacerProfileNames:MES-ProprietaryValuableBlocks]
       [ClearAuthorship:true]
-      [ReplaceArmorBlocksWithModules:true]
+      [FactionOwner:VOID]
+      [IgnoreGlobalBlockReplacer:true]
       [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
-        
-      [UseRivalAi:false]
-      [RivalAiReplaceRemoteControl:false]
+      [ReplenishSystems:true]
+      [ReplaceArmorBlocksWithModules:true]
+      [RivalAiReplaceRemoteControl:true]
+      [ThreatScoreMinimum:50]
+      [ThreatScoreMaximum:500]
+      [UseBlockReplacerProfile:true]
+      [UseRivalAi:true]
+      [UseThreatLevelCheck:true]
       </Description>
       <IsPirate>true</IsPirate>
       <Frequency>3.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="Void-Charger">
           <BeaconText>Charger</BeaconText>
-          <Behaviour></Behaviour>
+          <Behaviour>RAI-Behavior-TheVoid-Fighter</Behaviour>
           <Position>
             <X>0.0</X>
             <Y>0.0</Y>
@@ -106,7 +110,7 @@
     <SpawnGroup>
       <Id>
         <TypeId>SpawnGroupDefinition</TypeId>
-        <SubtypeId>Void-Recon-Expedition-Alpha-SG</SubtypeId>
+        <SubtypeId>Void-Recon-Expedition-Beta-SG</SubtypeId>
       </Id>
       <Description>
       [Modular Encounters SpawnGroup]
@@ -116,13 +120,9 @@
       [SpaceRandomEncounter:false]
       [AtmosphericCargoShip:false]
       [PlanetaryInstallation:false]
-      [RivalAiSpawn:false]
-      
-      [FactionOwner:VOID]
-      [ReplenishSystems:true]
+      [RivalAiSpawn:true]
+      [RivalAiSpaceSpawn:true]
 
-      [UseBlockReplacerProfile:true]
-      [IgnoreGlobalBlockReplacer:true]
       [BlockReplacerProfileNames:MES-DisposableNpcBeacons]
       [BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
       [BlockReplacerProfileNames:MES-NpcThrusters-Hydro]
@@ -130,19 +130,25 @@
       [BlockReplacerProfileNames:MES-ProprietaryCompRichBlocks]
       [BlockReplacerProfileNames:MES-ProprietaryValuableBlocks]
       [ClearAuthorship:true]
+      [FactionOwner:VOID]
+      [IgnoreGlobalBlockReplacer:true]
       [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
       [ReplaceArmorBlocksWithModules:true]      
-        
-      [UseRivalAi:false]
-      [RivalAiReplaceRemoteControl:false]
+      [ReplenishSystems:true]
+      [RivalAiReplaceRemoteControl:true]
+      [ThreatScoreMinimum:100]
+      [ThreatScoreMaximum:750]
+      [UseBlockReplacerProfile:true]
+      [UseRivalAi:true]
+      [UseThreatLevelCheck:true]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>2.0</Frequency>
+      <Frequency>3.0</Frequency>
       <Prefabs>
 
         <Prefab SubtypeId="Void-Charger">
           <BeaconText>Charger Squad Leader</BeaconText>
-          <Behaviour></Behaviour>
+          <Behaviour>RAI-Behavior-TheVoid-Fighter</Behaviour>
           <Position>
             <X>200.0</X>
             <Y>0.0</Y>
@@ -153,7 +159,7 @@
 
         <Prefab SubtypeId="Void-Explorer">
           <BeaconText>Explorer</BeaconText>
-          <Behaviour></Behaviour>
+          <Behaviour>RAI-Behavior-TheVoid-HorseFighter</Behaviour>
           <Position>
             <X>0.0</X>
             <Y>0.0</Y>
@@ -164,7 +170,7 @@
 
         <Prefab SubtypeId="Void-Charger">
           <BeaconText>Charger</BeaconText>
-          <Behaviour></Behaviour>
+          <Behaviour>RAI-Behavior-TheVoid-Fighter</Behaviour>
           <Position>
             <X>-200.0</X>
             <Y>0.0</Y>
@@ -176,6 +182,7 @@
       </Prefabs>
     </SpawnGroup>
 
+    <!-- LARGE GRIDS -->
     <!-- Single Abysmal Inquisitor -->
     <SpawnGroup>
       <Id>
@@ -190,91 +197,41 @@
       [SpaceRandomEncounter:false]
       [AtmosphericCargoShip:false]
       [PlanetaryInstallation:false]
-      [RivalAiSpawn:false]
-      
-      [UseBlockReplacerProfile:true]
-      [IgnoreGlobalBlockReplacer:true]
-      [ClearAuthorship:true]
+      [RivalAiSpawn:true]
+      [RivalAiSpaceSpawn:true]
+
       [BlockReplacerProfileNames:MES-DisposableNpcBeacons]
       [BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
       [BlockReplacerProfileNames:MES-NpcThrusters-Hydro]
       [BlockReplacerProfileNames:MES-NpcThrusters-Ion]
       [BlockReplacerProfileNames:MES-ProprietaryCompRichBlocks]
       [BlockReplacerProfileNames:MES-ProprietaryValuableBlocks]
+      [ClearAuthorship:true]
       [FactionOwner:VOID]
+      [IgnoreGlobalBlockReplacer:true]
       [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
       [ReplaceArmorBlocksWithModules:true]
       [ReplenishSystems:true]
+      [RivalAiReplaceRemoteControl:true]
       [SpawnRandomCargo:true]
-        
-      [UseRivalAi:false]
-      [RivalAiReplaceRemoteControl:false]
+      [ThreatScoreMinimum:75]
+      [ThreatScoreMaximum:250]
+      [UseBlockReplacerProfile:true]
+      [UseRivalAi:true]
+      [UseThreatLevelCheck:true]
       </Description>
       <IsPirate>true</IsPirate> <!--Do not edit-->
-      <Frequency>1.0</Frequency>
+      <Frequency>3.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="Abysmal-Inquisitor">
           <BeaconText>An Abysmal Inquisitor</BeaconText>
-          <Behaviour></Behaviour>
+          <Behaviour>RAI-Behavior-TheVoid-Horsefly</Behaviour>
           <Position>
             <X>0.0</X>
             <Y>0.0</Y>
             <Z>0.0</Z>
           </Position>
           <Speed>25</Speed>					
-        </Prefab>
-      </Prefabs>
-    </SpawnGroup>
-
-    <!-- Single Void Charger as RAI Fighter -->
-    <SpawnGroup>
-      <Id>
-        <TypeId>SpawnGroupDefinition</TypeId>
-        <SubtypeId>Void-Charger-RAI-SG</SubtypeId>
-      </Id>
-      <Description>
-      [Modular Encounters SpawnGroup]
-        
-      [SpaceCargoShip:true]
-      [LunarCargoShip:true]
-      [SpaceRandomEncounter:false]
-      [AtmosphericCargoShip:false]
-      [PlanetaryInstallation:false]
-      [RivalAiSpawn:true]
-      [RivalAiSpaceSpawn:true]
-      
-      [UseBlockReplacerProfile:true]
-      [IgnoreGlobalBlockReplacer:true]
-      [BlockReplacerProfileNames:MES-DisposableNpcBeacons]
-      [BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
-      [BlockReplacerProfileNames:MES-NpcThrusters-Hydro]
-      [BlockReplacerProfileNames:MES-NpcThrusters-Ion]
-      [BlockReplacerProfileNames:MES-ProprietaryCompRichBlocks]
-      [BlockReplacerProfileNames:MES-ProprietaryValuableBlocks]
-      [ClearAuthorship:true]
-      [FactionOwner:VOID]
-      [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
-      [ReplenishSystems:true]
-      [ReplaceArmorBlocksWithModules:true]
-      [ThreatScoreMinimum:50]
-      [ThreatScoreMaximum:500]
-      [UseThreatLevelCheck:true]
-        
-      [UseRivalAi:true]
-      [RivalAiReplaceRemoteControl:true]
-      </Description>
-      <IsPirate>true</IsPirate>
-      <Frequency>1.0</Frequency>
-      <Prefabs>
-        <Prefab SubtypeId="Void-Charger">
-          <BeaconText>Charger</BeaconText>
-          <Behaviour>RAI-Behavior-TheVoid-Fighter</Behaviour>
-          <Position>
-            <X>0.0</X>
-            <Y>0.0</Y>
-            <Z>0.0</Z>
-          </Position>
-          <Speed>45</Speed>					
         </Prefab>
       </Prefabs>
     </SpawnGroup>
