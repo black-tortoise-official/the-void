@@ -39,7 +39,7 @@
       [UseThreatLevelCheck:true]
       </Description>
       <IsPirate>true</IsPirate> <!--Do not edit-->
-      <Frequency>2.0</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="Void-Explorer">
           <BeaconText>Explorer</BeaconText>
@@ -91,7 +91,7 @@
       [UseThreatLevelCheck:true]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>3.0</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="Void-Charger">
           <BeaconText>Charger</BeaconText>
@@ -143,7 +143,7 @@
       [UseThreatLevelCheck:true]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>3.0</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
 
         <Prefab SubtypeId="Void-Charger">
@@ -221,7 +221,7 @@
       [UseThreatLevelCheck:true]
       </Description>
       <IsPirate>true</IsPirate> <!--Do not edit-->
-      <Frequency>3.0</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="Abysmal-Inquisitor">
           <BeaconText>An Abysmal Inquisitor</BeaconText>
