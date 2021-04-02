@@ -4,7 +4,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>RAI-Behavior-TheVoid-Controller</SubtypeId>
+        <SubtypeId>RAI-Behavior-Void-Controller-Alpha</SubtypeId>
       </Id>
       <Description>
       [RivalAI Behavior]

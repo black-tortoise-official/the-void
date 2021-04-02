@@ -218,7 +218,7 @@
       [UseThreatLevelCheck:true]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.01</Frequency>
+      <Frequency>0.25</Frequency>
       <Prefabs>
 
         <Prefab SubtypeId="Void-Empty-Striker">
