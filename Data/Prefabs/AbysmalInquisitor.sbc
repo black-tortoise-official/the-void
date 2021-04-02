@@ -5608,7 +5608,7 @@ Memo: do not make sense of this data</PublicDescription>
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
-              <ContainerType>(NPC-ATM)Loot-LGLC-BasicComponents-1</ContainerType>
+              <ContainerType>MES-StoreInv-IngotsAdvancedLarge-1</ContainerType>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CargoContainer">
               <SubtypeName>LargeBlockSmallContainer</SubtypeName>
@@ -5671,7 +5671,7 @@ Record all results and return to central base when finished with at least 100 sp
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
-              <ContainerType>(NPC-ATM)Loot-LGLC-CommonOre-1</ContainerType>
+              <ContainerType>MES-StoreInv-AdvancedLarge-1</ContainerType>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>LargeBlockArmorSlope</SubtypeName>
