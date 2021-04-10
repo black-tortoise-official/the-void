@@ -31,15 +31,16 @@
       [ReplaceArmorBlocksWithModules:true]
       [ReplenishSystems:true]
       [RivalAiReplaceRemoteControl:true]
+      [Territory:Void-Ice-Comet]
       [ThreatScoreMinimum:25]
-      [ThreatScoreMaximum:750]
+      [ThreatScoreMaximum:2750]
       [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
       [UseBlockReplacerProfile:true]
       [UseRivalAi:true]
       [UseThreatLevelCheck:true]
       </Description>
       <IsPirate>true</IsPirate> <!--Do not edit-->
-      <Frequency>0.5</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="Void-Explorer">
           <BeaconText>Explorer</BeaconText>
@@ -84,14 +85,15 @@
       [ReplenishSystems:true]
       [ReplaceArmorBlocksWithModules:true]
       [RivalAiReplaceRemoteControl:true]
-      [ThreatScoreMinimum:50]
-      [ThreatScoreMaximum:500]
+      [Territory:Void-Ice-Comet]
+      [ThreatScoreMinimum:10]
+      [ThreatScoreMaximum:2500]
       [UseBlockReplacerProfile:true]
       [UseRivalAi:true]
       [UseThreatLevelCheck:true]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.5</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="Void-Charger">
           <BeaconText>Charger</BeaconText>
@@ -136,14 +138,15 @@
       [ReplaceArmorBlocksWithModules:true]      
       [ReplenishSystems:true]
       [RivalAiReplaceRemoteControl:true]
-      [ThreatScoreMinimum:100]
-      [ThreatScoreMaximum:750]
+      [Territory:Void-Ice-Comet]
+      [ThreatScoreMinimum:80]
+      [ThreatScoreMaximum:2750]
       [UseBlockReplacerProfile:true]
       [UseRivalAi:true]
       [UseThreatLevelCheck:true]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.25</Frequency>
+      <Frequency>0.5</Frequency>
       <Prefabs>
 
         <Prefab SubtypeId="Void-Charger">
@@ -211,14 +214,15 @@
       [ReplaceArmorBlocksWithModules:true]
       [ReplenishSystems:true]
       [RivalAiReplaceRemoteControl:true]
-      [ThreatScoreMinimum:120]
-      [ThreatScoreMaximum:750]
+      [Territory:Void-Ice-Comet]
+      [ThreatScoreMinimum:80]
+      [ThreatScoreMaximum:2750]
       [UseBlockReplacerProfile:true]
       [UseRivalAi:true]
       [UseThreatLevelCheck:true]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.25</Frequency>
+      <Frequency>0.5</Frequency>
       <Prefabs>
 
         <Prefab SubtypeId="Void-Empty-Striker">
@@ -285,15 +289,16 @@
       [ReplaceArmorBlocksWithModules:true]
       [ReplenishSystems:true]
       [RivalAiReplaceRemoteControl:true]
-      [ThreatScoreMinimum:150]
-      [ThreatScoreMaximum:750]
+      [Territory:Void-Ice-Comet]
+      [ThreatScoreMinimum:80]
+      [ThreatScoreMaximum:2750]
       [UseBlockReplacerProfile:true]
       [UseRandomNameGenerator:true]
       [UseRivalAi:true]
       [UseThreatLevelCheck:true]
       </Description>
       <IsPirate>true</IsPirate> <!--Do not edit-->
-      <Frequency>0.5</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="Void-Empty-Controller">
           <BeaconText>The Empty Controller</BeaconText>
@@ -337,13 +342,16 @@
       [FactionOwner:VOID]
       [IgnoreGlobalBlockReplacer:true]
       [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+      [RandomGridNamePattern:(FEC-V) Inquisitor BadAdjective JobNoun NatoLetter]
       [ReplaceArmorBlocksWithModules:true]
       [ReplenishSystems:true]
       [RivalAiReplaceRemoteControl:true]
       [SpawnRandomCargo:true]
-      [ThreatScoreMinimum:75]
-      [ThreatScoreMaximum:450]
+      [Territory:Void-Ice-Comet]
+      [ThreatScoreMinimum:150]
+      [ThreatScoreMaximum:2750]
       [UseBlockReplacerProfile:true]
+      [UseRandomNameGenerator:true]
       [UseRivalAi:true]
       [UseThreatLevelCheck:true]
       </Description>
@@ -362,6 +370,45 @@
         </Prefab>
       </Prefabs>
     </SpawnGroup>
+
+    <!-- TERRITORIES -->
+
+    <SpawnGroup>
+      <Id>
+         <TypeId>SpawnGroupDefinition</TypeId>
+         <SubtypeId>Void-Terriory-Ice-Comet</SubtypeId>
+      </Id>
+      <Description>
+   
+      [Modular Encounters Territory]
+
+      [Active:true]
+      [AnnounceArriveDepart:true]
+      [CoordsX:-3161717]
+      [CoordsY:1269338]
+      [CoordsZ:2784550]
+      [CustomArriveMessage:!!! ALERT !!! - The Void have detected your presence!]
+      [CustomDepartMessage:The Void are no longer able to track you.]
+      [Name:Void-Ice-Comet]
+      [Radius:45000]
+      [Type:Static]      
+   
+      </Description>
+      <Icon>Textures\FAKE.dds</Icon>
+      <Frequency>10.0</Frequency>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+         <Prefab SubtypeId="Void-Explorer">
+            <Position>
+               <X>0.0</X>
+               <Y>0.0</Y>
+               <Z>0.0</Z>
+            </Position>
+            <BeaconText>Void Territory Ship</BeaconText>
+            <Speed>5.0</Speed>
+         </Prefab>
+      </Prefabs>
+   </SpawnGroup>
 
   </SpawnGroups>
 </Definitions>
