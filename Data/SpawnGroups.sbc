@@ -261,7 +261,7 @@
       </Prefabs>
     </SpawnGroup>
 
-    <!-- Spawns -->
+    <!-- Small Grids && Spawn Drones -->
 
     <SpawnGroup>
       <Id>
@@ -367,6 +367,56 @@
             <Z>0.0</Z>
           </Position>
           <Speed>25</Speed>					
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <!-- Stations / Encounters -->
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Void-Forward-Operating-Base-Alpha-SG</SubtypeId>
+      </Id>
+      <Description>
+      [Modular Encounters SpawnGroup]
+        
+      [SpaceRandomEncounter:Value]
+      [RivalAiSpawn:true]
+      [RivalAiSpaceSpawn:true]
+  
+      [BlockReplacerProfileNames:MES-DisposableNpcBeacons]
+      [BlockReplacerProfileNames:MES-ProprietaryCompRichBlocks]
+      [BlockReplacerProfileNames:MES-ProprietaryValuableBlocks]
+      [ClearAuthorship:true]
+      [FactionOwner:VOID]
+      [IgnoreGlobalBlockReplacer:true]
+      [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+      [RandomGridNamePattern:(FEC-V) Nihilistic BadAdjective Subject Reclamator GreekLetter]
+      [ReplaceAntennaNameWithRandomizedName:Antenna]
+      [ReplaceArmorBlocksWithModules:true]
+      [ReplenishSystems:true]
+      [RivalAiReplaceRemoteControl:true]
+      [SkipAirDensityCheck:true]
+      [ThreatScoreMinimum:70]
+      [ThreatScoreMaximum:5000]
+      [UseBlockReplacerProfile:true]
+      [UseRandomNameGenerator:true]
+      [UseRivalAi:true]
+      [UseThreatLevelCheck:true]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>1.0</Frequency>
+      <Prefabs> <!-- TODO: LOOT, AND THEN THE BEHAVIOR TO SPAWN THINGS -->
+        <Prefab SubtypeId="Void-Operating-Base-Alpha">
+          <BeaconText>Outpost</BeaconText>
+          <Behaviour>RAI-Behavior-Void-Outpost-Alpha</Behaviour>
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>					
         </Prefab>
       </Prefabs>
     </SpawnGroup>
