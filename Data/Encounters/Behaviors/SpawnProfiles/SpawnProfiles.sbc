@@ -23,6 +23,28 @@
       [UseRelativeSpawnPosition:false] 
       </Description>    
     </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>Spawn-Void-Drones-Beta</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Spawn]
+      [UseSpawn:true]
+
+      [IgnoreSafetyChecks:true]
+      [InheritNpcAltitude:true]
+      [MaxSpawns:10]
+      [MinDistance:800]
+      [MaxDistance:1800]
+      [SpawnGroups:Void-Drone-Assault-Alpha-SG]
+      [SpawnMinCooldown:300]
+      [SpawnMaxCooldown:480]
+      [StartsReady:true]      
+      [UseRelativeSpawnPosition:false] 
+      </Description>    
+    </EntityComponent>
    
   </EntityComponents>
 </Definitions>
