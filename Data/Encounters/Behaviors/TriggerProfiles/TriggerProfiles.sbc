@@ -14,7 +14,25 @@
       [MinCooldownMs:60000]
       [MaxCooldownMs:120000]
       [StartsReady:true]
-      [TargetDistance:1800]
+      [TargetDistance:2000]
+      [Type:PlayerNear]
+      [UseTrigger:true]
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Trigger-Void-Create-Drones-Beta</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Trigger]
+
+      [Actions:Action-Void-Drones-Beta]
+      [MinCooldownMs:5000]
+      [MaxCooldownMs:30000]
+      [StartsReady:true]
+      [TargetDistance:10000]
       [Type:PlayerNear]
       [UseTrigger:true]
       </Description>

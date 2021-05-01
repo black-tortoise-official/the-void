@@ -40,7 +40,7 @@
       [UseThreatLevelCheck:true]
       </Description>
       <IsPirate>true</IsPirate> <!--Do not edit-->
-      <Frequency>1.0</Frequency>
+      <Frequency>4.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="Void-Explorer">
           <BeaconText>Explorer</BeaconText>
@@ -93,7 +93,7 @@
       [UseThreatLevelCheck:true]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>1.0</Frequency>
+      <Frequency>4.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="Void-Charger">
           <BeaconText>Charger</BeaconText>
@@ -146,7 +146,7 @@
       [UseThreatLevelCheck:true]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.5</Frequency>
+      <Frequency>3.0</Frequency>
       <Prefabs>
 
         <Prefab SubtypeId="Void-Charger">
@@ -222,7 +222,7 @@
       [UseThreatLevelCheck:true]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.5</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
 
         <Prefab SubtypeId="Void-Empty-Striker">
@@ -298,7 +298,7 @@
       [UseThreatLevelCheck:true]
       </Description>
       <IsPirate>true</IsPirate> <!--Do not edit-->
-      <Frequency>1.0</Frequency>
+      <Frequency>4.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="Void-Empty-Controller">
           <BeaconText>The Empty Controller</BeaconText>
@@ -356,7 +356,7 @@
       [UseThreatLevelCheck:true]
       </Description>
       <IsPirate>true</IsPirate> <!--Do not edit-->
-      <Frequency>0.25</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="Abysmal-Inquisitor">
           <BeaconText>Abysmal Inquisitor</BeaconText>
@@ -371,7 +371,8 @@
       </Prefabs>
     </SpawnGroup>
 
-    <!-- Stations / Encounters -->
+    <!-- STATIONS / ENCOUNTERS -->
+    <!-- Single Fw Op Base w Dones -->
 
     <SpawnGroup>
       <Id>
@@ -381,7 +382,7 @@
       <Description>
       [Modular Encounters SpawnGroup]
         
-      [SpaceRandomEncounter:Value]
+      [SpaceRandomEncounter:true]
       [RivalAiSpawn:true]
       [RivalAiSpaceSpawn:true]
   
@@ -390,15 +391,17 @@
       [BlockReplacerProfileNames:MES-ProprietaryValuableBlocks]
       [ClearAuthorship:true]
       [FactionOwner:VOID]
+      [ForceStaticGrid:true]
       [IgnoreGlobalBlockReplacer:true]
       [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
-      [RandomGridNamePattern:(FEC-V) Nihilistic BadAdjective Subject Reclamator GreekLetter]
+      [RandomGridNamePattern:(FEC-V) BadAdjective Nihilistic Subject Reclamator GreekLetter]
       [ReplaceAntennaNameWithRandomizedName:Antenna]
       [ReplaceArmorBlocksWithModules:true]
       [ReplenishSystems:true]
       [RivalAiReplaceRemoteControl:true]
       [SkipAirDensityCheck:true]
-      [ThreatScoreMinimum:70]
+      [Territory:Void-Ice-Comet]
+      [ThreatScoreMinimum:50]
       [ThreatScoreMaximum:5000]
       [UseBlockReplacerProfile:true]
       [UseRandomNameGenerator:true]
@@ -406,8 +409,8 @@
       [UseThreatLevelCheck:true]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>1.0</Frequency>
-      <Prefabs> <!-- TODO: LOOT, AND THEN THE BEHAVIOR TO SPAWN THINGS -->
+      <Frequency>4.0</Frequency>
+      <Prefabs>
         <Prefab SubtypeId="Void-Operating-Base-Alpha">
           <BeaconText>Outpost</BeaconText>
           <Behaviour>RAI-Behavior-Void-Outpost-Alpha</Behaviour>
