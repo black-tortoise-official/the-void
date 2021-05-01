@@ -32,7 +32,7 @@
       [MinCooldownMs:5000]
       [MaxCooldownMs:30000]
       [StartsReady:true]
-      [TargetDistance:10000]
+      [TargetDistance:15000]
       [Type:PlayerNear]
       [UseTrigger:true]
       </Description>
