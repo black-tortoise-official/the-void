@@ -33,7 +33,7 @@
       [RivalAiReplaceRemoteControl:true]
       [Territory:Void-Ice-Comet]
       [ThreatScoreMinimum:25]
-      [ThreatScoreMaximum:2750]
+      [ThreatScoreMaximum:5000]
       [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
       [UseBlockReplacerProfile:true]
       [UseRivalAi:true]
@@ -50,7 +50,7 @@
             <Y>0.0</Y>
             <Z>0.0</Z>
           </Position>
-          <Speed>35</Speed>					
+          <Speed>45</Speed>					
         </Prefab>
       </Prefabs>
     </SpawnGroup>
@@ -87,7 +87,7 @@
       [RivalAiReplaceRemoteControl:true]
       [Territory:Void-Ice-Comet]
       [ThreatScoreMinimum:10]
-      [ThreatScoreMaximum:2500]
+      [ThreatScoreMaximum:5000]
       [UseBlockReplacerProfile:true]
       [UseRivalAi:true]
       [UseThreatLevelCheck:true]
@@ -103,7 +103,7 @@
             <Y>0.0</Y>
             <Z>0.0</Z>
           </Position>
-          <Speed>45</Speed>					
+          <Speed>75</Speed>					
         </Prefab>
       </Prefabs>
     </SpawnGroup>
@@ -140,7 +140,7 @@
       [RivalAiReplaceRemoteControl:true]
       [Territory:Void-Ice-Comet]
       [ThreatScoreMinimum:80]
-      [ThreatScoreMaximum:2750]
+      [ThreatScoreMaximum:5000]
       [UseBlockReplacerProfile:true]
       [UseRivalAi:true]
       [UseThreatLevelCheck:true]
@@ -216,7 +216,7 @@
       [RivalAiReplaceRemoteControl:true]
       [Territory:Void-Ice-Comet]
       [ThreatScoreMinimum:80]
-      [ThreatScoreMaximum:2750]
+      [ThreatScoreMaximum:5000]
       [UseBlockReplacerProfile:true]
       [UseRivalAi:true]
       [UseThreatLevelCheck:true]
@@ -284,14 +284,14 @@
       [FactionOwner:VOID]
       [IgnoreGlobalBlockReplacer:true]
       [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
-      [RandomGridNamePattern:(FEC-V) Controller BadAdjective AuthorityNoun NatoLetter]
+      [RandomGridNamePattern:(FEC-V) Controller BadAdjective AuthorityNoun GreekLetter]
       [ReplaceAntennaNameWithRandomizedName:Antenna]
       [ReplaceArmorBlocksWithModules:true]
       [ReplenishSystems:true]
       [RivalAiReplaceRemoteControl:true]
       [Territory:Void-Ice-Comet]
       [ThreatScoreMinimum:80]
-      [ThreatScoreMaximum:2750]
+      [ThreatScoreMaximum:5000]
       [UseBlockReplacerProfile:true]
       [UseRandomNameGenerator:true]
       [UseRivalAi:true]
@@ -342,14 +342,14 @@
       [FactionOwner:VOID]
       [IgnoreGlobalBlockReplacer:true]
       [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
-      [RandomGridNamePattern:(FEC-V) Inquisitor BadAdjective JobNoun NatoLetter]
+      [RandomGridNamePattern:(FEC-V) Inquisitor BadAdjective JobNoun GreekLetter]
       [ReplaceArmorBlocksWithModules:true]
       [ReplenishSystems:true]
       [RivalAiReplaceRemoteControl:true]
       [SpawnRandomCargo:true]
       [Territory:Void-Ice-Comet]
-      [ThreatScoreMinimum:150]
-      [ThreatScoreMaximum:2750]
+      [ThreatScoreMinimum:80]
+      [ThreatScoreMaximum:5000]
       [UseBlockReplacerProfile:true]
       [UseRandomNameGenerator:true]
       [UseRivalAi:true]
@@ -359,8 +359,64 @@
       <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="Abysmal-Inquisitor">
-          <BeaconText>Abysmal Inquisitor</BeaconText>
+          <BeaconText>Reconnaissance</BeaconText>
           <Behaviour>RAI-Behavior-TheVoid-Horsefly</Behaviour>
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>45</Speed>					
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <!-- Single Abysmal Obliterator -->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+        <SubtypeId>Void-Abysmal-Obliterator-SG</SubtypeId>
+      </Id>
+      <Description>
+      [Modular Encounters SpawnGroup]
+        
+      [SpaceCargoShip:true]
+      [LunarCargoShip:false]
+      [SpaceRandomEncounter:false]
+      [AtmosphericCargoShip:false]
+      [PlanetaryInstallation:false]
+      [RivalAiSpawn:true]
+      [RivalAiSpaceSpawn:true]
+
+      [BlockReplacerProfileNames:MES-DisposableNpcBeacons]
+      [BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
+      [BlockReplacerProfileNames:MES-NpcThrusters-Hydro]
+      [BlockReplacerProfileNames:MES-NpcThrusters-Ion]
+      [BlockReplacerProfileNames:MES-ProprietaryCompRichBlocks]
+      [BlockReplacerProfileNames:MES-ProprietaryValuableBlocks]
+      [ClearAuthorship:true]
+      [FactionOwner:VOID]
+      [IgnoreGlobalBlockReplacer:true]
+      [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+      [RandomGridNamePattern:(FEC-V) Obliterator BadAdjective BaddieNoun GreekLetter]
+      [ReplaceArmorBlocksWithModules:true]
+      [ReplenishSystems:true]
+      [RivalAiReplaceRemoteControl:true]
+      [SpawnRandomCargo:true]
+      [Territory:Void-Ice-Comet]
+      [ThreatScoreMinimum:100]
+      [ThreatScoreMaximum:5000]
+      [UseBlockReplacerProfile:true]
+      [UseRandomNameGenerator:true]
+      [UseRivalAi:true]
+      [UseThreatLevelCheck:true]
+      </Description>
+      <IsPirate>true</IsPirate> <!--Do not edit-->
+      <Frequency>1.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Void-Abysmal-Obliterator">
+          <BeaconText>Battleship</BeaconText>
+          <Behaviour>RAI-Behavior-Void-Battleship-Alpha</Behaviour>
           <Position>
             <X>0.0</X>
             <Y>0.0</Y>
@@ -443,7 +499,7 @@
       [CustomArriveMessage:!!! ALERT !!! - The Void have detected your presence!]
       [CustomDepartMessage:The Void are no longer able to track you.]
       [Name:Void-Ice-Comet]
-      [Radius:45000]
+      [Radius:500000]
       [Type:Static]      
    
       </Description>

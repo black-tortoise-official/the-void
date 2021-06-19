@@ -13,5 +13,18 @@
       [UseAmmoReplenish:true]
       </Description>
     </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>RAI-Behavior-Void-Battleship-Alpha</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Behavior]
+      [BehaviorName:Horsefly]
+      [Triggers:Trigger-Void-Create-Drones-Alpha]
+      [UseAmmoReplenish:true]
+      </Description>
+    </EntityComponent>
 	</EntityComponents>
 </Definitions>

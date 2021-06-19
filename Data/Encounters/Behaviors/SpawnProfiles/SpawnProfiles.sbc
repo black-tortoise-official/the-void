@@ -17,8 +17,8 @@
       [MinDistance:300]
       [MaxDistance:600]
       [SpawnGroups:Void-Drone-Assault-Alpha-SG]
-      [SpawnMinCooldown:600]
-      [SpawnMaxCooldown:900]
+      [SpawnMinCooldown:180]
+      [SpawnMaxCooldown:360]
       [StartsReady:true]      
       [UseRelativeSpawnPosition:false] 
       </Description>    
@@ -39,8 +39,8 @@
       [MinDistance:800]
       [MaxDistance:1800]
       [SpawnGroups:Void-Drone-Assault-Alpha-SG]
-      [SpawnMinCooldown:300]
-      [SpawnMaxCooldown:480]
+      [SpawnMinCooldown:180]
+      [SpawnMaxCooldown:360]
       [StartsReady:true]      
       [UseRelativeSpawnPosition:false] 
       </Description>    
