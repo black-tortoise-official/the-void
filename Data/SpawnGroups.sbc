@@ -293,7 +293,7 @@
       [ThreatScoreMinimum:80]
       [ThreatScoreMaximum:5000]
       [UseBlockReplacerProfile:true]
-      [UseRandomNameGenerator:true]
+      [UseRandomNameGenerator:false]
       [UseRivalAi:true]
       [UseThreatLevelCheck:true]
       </Description>
@@ -351,7 +351,7 @@
       [ThreatScoreMinimum:80]
       [ThreatScoreMaximum:5000]
       [UseBlockReplacerProfile:true]
-      [UseRandomNameGenerator:true]
+      [UseRandomNameGenerator:false]
       [UseRivalAi:true]
       [UseThreatLevelCheck:true]
       </Description>
@@ -359,7 +359,7 @@
       <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="Abysmal-Inquisitor">
-          <BeaconText>Reconnaissance</BeaconText>
+          <BeaconText>Abysmal Inquisitor</BeaconText>
           <Behaviour>RAI-Behavior-TheVoid-Horsefly</Behaviour>
           <Position>
             <X>0.0</X>
@@ -407,7 +407,7 @@
       [ThreatScoreMinimum:100]
       [ThreatScoreMaximum:5000]
       [UseBlockReplacerProfile:true]
-      [UseRandomNameGenerator:true]
+      [UseRandomNameGenerator:false]
       [UseRivalAi:true]
       [UseThreatLevelCheck:true]
       </Description>
@@ -415,7 +415,7 @@
       <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="Void-Abysmal-Obliterator">
-          <BeaconText>Battleship</BeaconText>
+          <BeaconText>Abysmal Obliterator</BeaconText>
           <Behaviour>RAI-Behavior-Void-Battleship-Alpha</Behaviour>
           <Position>
             <X>0.0</X>
@@ -460,7 +460,7 @@
       [ThreatScoreMinimum:50]
       [ThreatScoreMaximum:5000]
       [UseBlockReplacerProfile:true]
-      [UseRandomNameGenerator:true]
+      [UseRandomNameGenerator:false]
       [UseRivalAi:true]
       [UseThreatLevelCheck:true]
       </Description>
@@ -468,7 +468,7 @@
       <Frequency>4.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="Void-Operating-Base-Alpha">
-          <BeaconText>Outpost</BeaconText>
+          <BeaconText>Frontier Reclamator Alpha</BeaconText>
           <Behaviour>RAI-Behavior-Void-Outpost-Alpha</Behaviour>
           <Position>
             <X>0.0</X>
